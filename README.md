@@ -32,6 +32,7 @@ If the assertions pass, the circuit generates a valid proof. If not, the proof g
 ```bash
 git clone https://github.com/cypriansakwa/Sum-and-Product-Verifier-in-Noir.git
 cd Sum-and-Product-Verifier-in-Noir
+```
 ## Circuit Structure
 
 ### `check_sum_and_product(values: [Field; 3], expected_sum: Field, expected_product: Field)`
