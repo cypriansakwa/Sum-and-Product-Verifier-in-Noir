@@ -1,0 +1,6 @@
+[package]
+name = "Zero_Knowledge_Proof_of_Sum_and_Product_Consistency"
+type = "bin"
+authors = [""]
+
+[dependencies]

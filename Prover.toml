@@ -1,0 +1,3 @@
+expected_product = "90"
+expected_sum = "14"
+values = ["5", "3", "6"]
