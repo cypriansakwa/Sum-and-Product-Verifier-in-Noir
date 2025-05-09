@@ -10,7 +10,28 @@ This circuit performs the following:
 - Verifies the computed values against publicly provided `expected_sum` and `expected_product`.
 
 If the assertions pass, the circuit generates a valid proof. If not, the proof generation fails.
+## ✨ Features
 
+- Accepts three private inputs `[a, b, c]`
+- Verifies their sum and product match public inputs
+- Generates a zero-knowledge proof using Noir
+
+---
+
+## 🛠️ Prerequisites
+
+- [Rust](https://www.rust-lang.org/tools/install) (for installing Noir tools)
+- [`nargo`](https://noir-lang.org/docs/getting-started/installation) – Noir package manager
+
+---
+
+## 🚀 Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/cypriansakwa/Sum-and-Product-Verifier-in-Noir.git
+cd Sum-and-Product-Verifier-in-Noir
 ## Circuit Structure
 
 ### `check_sum_and_product(values: [Field; 3], expected_sum: Field, expected_product: Field)`
